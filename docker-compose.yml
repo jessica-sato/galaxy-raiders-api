@@ -5,6 +5,8 @@ services:
     build:
       context: .
       target: "runner"
+    ports:
+      - "5000:5000"
     profiles:
       - "prod"
 
@@ -42,6 +44,8 @@ services:
       context: .
       target: "base"
     command: "gradle --continuous runShadow"
+    ports:
+      - "5000:5000"
     volumes:
       - "./:/home/gradle/galaxy-raiders/"
     profiles:
