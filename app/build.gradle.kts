@@ -26,6 +26,9 @@ plugins {
 
   // Apply the Shadow JAR Plugin to generate a standalone uber Jar.
   id("com.github.johnrengelman.shadow") version "7.1.2"
+  
+  // Apply the Kover plugin to better support Kotlin code coverage.
+  id("org.jetbrains.kotlinx.kover") version "0.5.0"
 
   // Apply the Jacoco plugin to generate test coverage.
   jacoco

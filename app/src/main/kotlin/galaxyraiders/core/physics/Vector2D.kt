@@ -2,6 +2,7 @@
 package galaxyraiders.core.physics
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties
+
 import kotlin.math.*
 
 @JsonIgnoreProperties("unit", "normal", "degree", "magnitude")

@@ -77,8 +77,8 @@ class ControllerSpy : Controller {
         PlayerCommand.LAUNCH_MISSILE,
         PlayerCommand.PAUSE_GAME,
         PlayerCommand.PAUSE_GAME,
-        PlayerCommand.MOVE_SHIP_LEFT,
-        PlayerCommand.MOVE_SHIP_RIGHT,
+        PlayerCommand.MOVE_SHIP_UP,
+        PlayerCommand.MOVE_SHIP_DOWN,
       )
     )
 
