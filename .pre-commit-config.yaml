@@ -15,6 +15,6 @@ repos:
     name: Run Kotlin linters
     description: This hook runs Gradle to execute linters
     language: system
-    entry: docker compose --profile dev run --rm linter
+    entry: docker compose --profile dev run -T --rm linter
     types: [kotlin]
     pass_filenames: false
